@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Generator</title>
+</head>
+<body>
+    <h1>Resume Generator</h1>
+    <form action="/generate_resume" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="contact_info">Contact Info:</label><br>
+        <input type="text" id="contact_info" name="contact_info"><br><br>
+        
+        <label for="experience">Experience:</label><br>
+        <textarea id="experience" name="experience"></textarea><br><br>
+        
+        <label for="education">Education:</label><br>
+        <textarea id="education" name="education"></textarea><br><br>
+        
+        <label for="skills">Skills:</label><br>
+        <textarea id="skills" name="skills"></textarea><br><br>
+        
+        <input type="submit" value="Generate Resume">
+    </form>
+</body>
+</html>
